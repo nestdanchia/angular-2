@@ -61,7 +61,12 @@ si requerimos un merge luego de configurar por defecto a rebase
 >git pull --no-rebase
 o directamente
 >git pull --rebase
-
-
-
+si hay problemas con las ramas ejecutar 
+>git push -f
+Counting objects: 9, done.
+> git pull --ff-only
+Already up-to-date.
+menos seguro si trabajamos en equipo 
+>git pull -f
+git push -u origin --all
 
