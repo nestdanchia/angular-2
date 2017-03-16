@@ -70,31 +70,35 @@ menos seguro si trabajamos en equipo
 >git pull -f
 git push -u origin --all
 //para enviar cambios a un repositorio remoto
->git push origin master //en lugar de master puede ponerse una rama la rama master es la rama por defecto
-//para estar en la rama master >git checkout master
-para crear una rama y posicionarnos en ella
+>git push origin master.
+//en lugar de master puede ponerse una rama la rama master es la rama por defecto.
+//para estar en la rama master >git checkout master.
+para crear una rama y posicionarnos en ella.
 git checkout -b rama1
 para borrar rama1
 
 git branch -d rama1
-para subir la rama al repositorio
+para subir la rama al repositorio.
 git push origin rama1
 
-Por otro lado, si quieres deshacer todos los cambios locales y commits, puedes traer la última versión del servidor y apuntar a tu copia local principal de esta forma
+Por otro lado, si quieres deshacer todos los cambios locales y commits, puedes traer la última versión del servidor y apuntar a tu copia local principal de esta forma.
 git fetch origin
 git reset --hard origin/master
-Para ver  repositorios remotos configurados > git remote. Mostrará una lista con los nombres de los remotos que hayas especificado. Si has clonado tu repositorio, deberías ver por lo menos "origin" —es el nombre predeterminado que le da Git al servidor del que clonaste
+Para ver  repositorios remotos configurados
+> git remote. 
+Mostrará una lista con los nombres de los remotos que hayas especificado. Si has clonado tu repositorio, deberías ver por lo menos "origin" —es el nombre predeterminado que le da Git al servidor del que clonaste.
 
->git remote -v //muestra la URL asociada a cada repositorio remoto:
+>git remote -v //muestra la URL asociada a cada repositorio remoto.
 origin  https://github.com/nestdanchia/angular-2.git (fetch)
 origin  https://github.com/nestdanchia/angular-2.git (push)
-Si quieres enviar tu rama maestra (master) a tu servidor origen (origin), ejecutarías esto para enviar tu trabajo al servidor:
+Si quieres enviar tu rama maestra (master) a tu servidor origen (origin), ejecutarías esto para enviar tu trabajo al servidor.
 
 > git push origin master
- información acerca de un repositorio remoto en particular comando git remote show origin
+ Información acerca de un repositorio remoto en particular comando .
+ >git remote show origin.
  otro comando
  >git status
-On branch master
+On branch master.
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
   >git branch nos da las ramas existentes
