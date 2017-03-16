@@ -25,3 +25,30 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+como crear el repositorio
+Git tiene tres estados en los cuales pueden encontrarse los archivos
+stage es un escenario en el cual se marcan las modificaciones de los archivos luego podemos pasar al estado Modificado en el cual se han detectado esos cambios y se espera que pasen al proximo estado COMMITTED en el cual se guarda a todos los archivos en la base de datos de Git
+Configurando git 
+
+A.git config --global user.name "Nestor"
+config --global user.email "xxxxxx@ejemplo.com"
+
+B.crear una cuenta en un repositorio por ejemplo github nos dara un usuarioGit y una claveGit
+
+Nos poicionamos en la terminal de comandos en la carpeta que contiene a nuestro proyecto luego
+>git init // crea una carpeta .git oculta con lo necesario para nuestro trabajo con git
+>agregamos a todos los archivos a git con
+git add. //el punto le da a git la ruta actual para agregar el proyecto
+git commit -m "Commit Inicial" // pasamos al estado committed con -m le pasamos el mensaje a mostrar para este committed
+
+C. desde nuestra terminal agregamos nuestro proyecto al repositorio que debemos crear antes en github
+>git remote add origin https://github.com/nestdanchia/angular-2.gi //damos el repositorio origen
+>git push -u origin master //subimos los archivos
+nos pregunta por 
+Username for 'https://github.com/': --------- // completamos nuestro usuario y clave en github
+Password for 'https://nestdanchia@github.com/':-------
+si todo va bien nos dira finalmente 
+Branch master set up to track remote branch master from origin.
+
+
+
