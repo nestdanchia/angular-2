@@ -59,7 +59,8 @@ Como un pull puede tener conflictos ya que hace un fetch y un merge sobre un ram
 >git config --global --bool pull.rebase true 
 si requerimos un merge luego de configurar por defecto a rebase
 >git pull --no-rebase
-
+o directamente
+>git pull --rebase
 
 
 
