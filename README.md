@@ -50,5 +50,17 @@ Password for 'https://nestdanchia@github.com/':-------
 si todo va bien nos dira finalmente 
 Branch master set up to track remote branch master from origin.
 
+Si modificamos archivos en nuestro repositorio con el comando fetch obtenemos los cambios consolidados del repositorio remoto
+pero si fue un compañero no se ve reflejada en el git log hasta que la unamos a nuestro arbol de trabajo nuestra rama
+si utilizamos el comando fetch y no se encuentran cambios en el servidor el comando no retorna nada. 
+luego con 
+>git pull //hacemos un updating de los cambios
+Como un pull puede tener conflictos ya que hace un fetch y un merge sobre un rama podemos usar rebase que es mas segura lo habilitamos globalmente con
+>git config --global --bool pull.rebase true 
+si requerimos un merge luego de configurar por defecto a rebase
+>git pull --no-rebase
+
+
+
 
 
