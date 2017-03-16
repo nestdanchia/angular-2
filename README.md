@@ -38,11 +38,11 @@ B.crear una cuenta en un repositorio por ejemplo github nos dara un usuarioGit y
 Nos poicionamos en la terminal de comandos en la carpeta que contiene a nuestro proyecto luego
 >git init // crea una carpeta .git oculta con lo necesario para nuestro trabajo con git
 >agregamos a todos los archivos a git con
-git add. //el punto le da a git la ruta actual para agregar el proyecto
+git add . //el punto le da a git la ruta actual para agregar el proyecto
 git commit -m "Commit Inicial" // pasamos al estado committed con -m le pasamos el mensaje a mostrar para este committed
 
 C. desde nuestra terminal agregamos nuestro proyecto al repositorio que debemos crear antes en github
->git remote add origin https://github.com/nestdanchia/angular-2.gi //damos el repositorio origen
+>git remote add origin https://github.com/nestdanchia/angular-2.git //damos el repositorio origen
 >git push -u origin master //subimos los archivos
 nos pregunta por 
 Username for 'https://github.com/': --------- // completamos nuestro usuario y clave en github
