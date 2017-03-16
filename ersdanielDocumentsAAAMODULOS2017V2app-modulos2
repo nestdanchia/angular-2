@@ -1,0 +1,49 @@
+[33mcommit d6bbacc580f645ce75c83831d021827f15adf359[m
+Author: Nestor <chiariellonestordaniel@gmail.com>
+Date:   Thu Mar 16 12:20:37 2017 -0300
+
+    Primer commit; agregue la estructura de archivos
+
+ .../movimiento/movimiento.component.css            |  0
+ .../movimiento/movimiento.component.html           |  3 [32m+++[m
+ .../movimiento/movimiento.component.spec.ts        | 25 [32m++++++++++++++++++++++[m
+ .../movimientos/movimiento/movimiento.component.ts | 15 [32m+++++++++++++[m
+ src/app/movimientos/movimientos.module.ts          | 14 [32m++++++++++++[m
+ 5 files changed, 57 insertions(+)
+
+[33mcommit 272ff7155a9d58bae8a89083d1d2c08d48708b77[m
+Author: Angular CLI <angular-cli@angular.io>
+Date:   Wed Mar 15 16:19:58 2017 -0300
+
+    chore: initial commit from @angular/cli
+
+ .angular-cli.json                    |  57 [32m+++++++++++++++++[m
+ .editorconfig                        |  13 [32m++++[m
+ .gitignore                           |  41 [32m+++++++++++++[m
+ README.md                            |  27 [32m++++++++[m
+ e2e/app.e2e-spec.ts                  |  14 [32m+++++[m
+ e2e/app.po.ts                        |  11 [32m++++[m
+ e2e/tsconfig.e2e.json                |  19 [32m++++++[m
+ karma.conf.js                        |  44 [32m+++++++++++++[m
+ package.json                         |  46 [32m++++++++++++++[m
+ protractor.conf.js                   |  30 [32m+++++++++[m
+ src/app/app.component.css            |   0
+ src/app/app.component.html           |   3 [32m+[m
+ src/app/app.component.spec.ts        |  32 [32m++++++++++[m
+ src/app/app.component.ts             |  10 [32m+++[m
+ src/app/app.module.ts                |  20 [32m++++++[m
+ src/assets/.gitkeep                  |   0
+ src/environments/environment.prod.ts |   3 [32m+[m
+ src/environments/environment.ts      |   8 [32m+++[m
+ src/favicon.ico                      | Bin [31m0[m -> [32m5430[m bytes
+ src/index.html                       |  14 [32m+++++[m
+ src/main.ts                          |  11 [32m++++[m
+ src/polyfills.ts                     |  68 [32m++++++++++++++++++++[m
+ src/styles.css                       |   1 [32m+[m
+ src/test.ts                          |  32 [32m++++++++++[m
+ src/tsconfig.app.json                |  22 [32m+++++++[m
+ src/tsconfig.spec.json               |  26 [32m++++++++[m
+ src/typings.d.ts                     |   4 [32m++[m
+ tsconfig.json                        |  16 [32m+++++[m
+ tslint.json                          | 116 [32m+++++++++++++++++++++++++++++++++++[m
+ 29 files changed, 688 insertions(+)
